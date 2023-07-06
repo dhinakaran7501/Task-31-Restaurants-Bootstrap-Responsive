@@ -1,0 +1,179 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+    line-height: 1em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Custom CSS */
+
+/* Navbar Section */
+#main_menu nav {
+    background-color: #ebe2d3;
+    font-weight: 500;
+}
+
+#main_menu li {
+    margin-left: 15px;
+}
+
+/* Slider Section */
+#slider {
+    padding-top: 40px;
+}
+
+
+/* About Section */
+#about_section {
+    padding: 110px 0px 35px;
+}
+
+#about_us {
+    font-size: 60px;
+    color: #502314;
+}
+
+#whatwedo {
+    color: #502314;
+    font-size: 25px;
+    margin: 7px 0px;
+}
+
+#learnmore {
+    background: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 35px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Work Section Start*/
+
+#workArea {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    background-color: #f5ebdc;
+}
+
+.whatwework {
+    color: #502314;
+    font-size: 60px;
+}
+
+
+
+/* Service area */
+#serviceArea {
+    padding-top: 110px;
+}
+
+#contactUs {
+    padding-top: 110px;
+    background-image: url("../img/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-danger {
+    background: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 0;
+    padding: 12px 35px;
+}
+
+.footer ol li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.footer h3 {
+    color: #502314;
+    font-size: 25px;
+}
+
+.social>li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+hr {
+    height: 2px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width:600px) {
+    #main_menu img {
+        width: 150px;
+    }
+
+    #main_menu nav {
+        width: 100%;
+    }
+
+    #slider {
+        padding-top: 13px;
+    }
+
+    #slider img {
+        width: 100%;
+    }
+
+    #about_section {
+        padding: 10px 0px 35px;
+    }
+
+    #about_us {
+        font-size: 40px;
+    }
+
+    #workArea {
+        padding-top: 24px;
+        padding-bottom: 0px;
+    }
+
+    .whatwework {
+        font-size: 35px;
+    }
+
+    #serviceArea {
+        padding-top: 0px;
+    }
+
+    #contactUs {
+        padding-top: 22px;
+    }
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+}
